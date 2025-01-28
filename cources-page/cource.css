@@ -1,0 +1,321 @@
+a {
+    text-decoration: none;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* __________________header______________________ */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #12376B;
+    height: 44px;
+    color: white;
+    /* margin-bottom: 46px; */
+}
+header>h6 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+header>h6>span {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+}
+/* ___________________________nav_________________________ */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:182px;
+    margin-bottom: 107px;
+    padding-top: 46px;
+    /* background-color: red; */
+}
+.nav-picture{
+    height: 45px;
+    width: 187px;
+}
+.nav-buttons{
+    display: flex;
+}
+.nav-buttons svg {
+    order: -1;
+    /* display: none; */
+}
+.nav-buttons a:nth-of-type(1){
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    color: white;
+    background-color: #F04B25;
+    border :0;
+    padding-inline:46px;
+    padding-block:14.5px;
+    border-radius: 22.5px;
+    cursor: pointer;
+}
+.nav-buttons a:nth-of-type(2){
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #D12215;
+    border :0;
+    padding-inline:24px;
+    padding-block:14.5px;
+    cursor: pointer;
+}
+nav>ul {
+display: flex;
+gap: 60px;
+}
+nav>ul>a{
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #12376B;
+    border :0;
+    cursor: pointer;
+}
+/* _______________________________________________________ */
+.all{
+    display: flex;
+    gap: 21px;
+    padding-inline: 182px;
+}
+
+.rigthpart{
+    width: 437px;
+    display: flex;
+    flex-direction: column;
+}
+.rigthpart h3 {
+    padding: 0;
+    margin: 0;
+    color:#FFFFFF ;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #F4A905;
+    text-align: center;
+    padding-block: 16px;
+    border-radius: 10px 10px 0 0;
+}
+.number1 {
+    padding-inline: 31px;
+    background-color: #F5F5F5;
+}
+.number1 h1{
+    font-size:40px;
+    font-weight: 700;
+    color: #12376B; 
+    padding: 0;
+    margin: 0;
+    margin-top: 33px;
+    margin-bottom: 14px;
+}
+.number1 h1 span{
+    padding: 0;
+    margin: 0;
+    color: #F5A805;
+}
+.number2{
+    display: flex;
+    align-items: center;
+    margin-inline: 31px;
+    padding-inline: 40px;
+    padding-block: 10px;
+    margin-block: 0;
+    justify-content: space-between;
+    background-color:#F5A805;
+    border-radius: 5px;
+    margin-block: 26.5px;
+    gap: 14px;
+}
+.background {
+    background-color: #F5F5F5;
+}
+.money{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2px; */
+}
+.number2 div:nth-of-type(2){
+    font-size:12px;
+    font-weight: 400;
+    color:#9B6900; 
+    padding: 0;
+    margin: 0;
+    /* margin-top: 33px;
+    margin-bottom: 14px; */
+}
+.number2 div:nth-of-type(2) p{
+    font-size: 12px;
+    position: relative;
+}
+.number2 div:nth-of-type(2) p:nth-of-type(1)::after{
+    content: "";
+    width: 176px;
+    height: 1px;
+    position: absolute;
+    bottom: -50%;
+    transform: translateY(50%);
+    right: 0;
+    background-color: #9B6900;
+
+}
+.number2 div:nth-of-type(1) h4{
+    font-size:40px;
+    font-weight: 700;
+    color:white; 
+    margin-block: 0;
+    padding-bottom: 0;
+}
+.number2 div:nth-of-type(1) p
+{
+    font-size:20px;
+    font-weight: 300;
+    color:white; 
+    margin-block: 0;
+    padding-bottom: 0;
+
+}
+.num3-1{
+    display: flex;
+    padding-inline:31px;
+    gap: 10px;
+    align-items: center;
+}
+.num3-1 h6{
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+}
+.num3-1 img{
+    transform: translateY(-15px);
+}
+.num3-1 h6 span{
+    font-size:14px;
+    font-weight:600;
+    color:#909090; 
+    margin-block: 0;
+}
+/*____________________________________________________  */
+.svg{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.svg::after{
+    content: "";
+    height: 78px;
+    width: 1px;
+    margin-inline: 22px;
+    background-color: #909090;
+}
+.svg svg {
+    transform: translateY(-2.5px);
+}
+.svg-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.num3-2{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    padding-inline: 31px;
+    margin-block: 17px;
+    
+}
+.svg-content h5{
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+.svg-content h5 span{
+    font-size:14px;
+    font-weight:600;
+    color:#909090; 
+    margin-block: 0;
+}
+/* ___________________________________________ */
+.svg2 {
+    /* margin-block: 0;
+    padding-block: 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.svg2 h6{
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+.svg2 h6 span{
+    font-size:14px;
+    font-weight:600;
+    color:#909090; 
+    margin-block: 0;
+}
+.num3-1 h2 {
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    /* margin-block: 0;
+    padding-block:0; */
+}
+.num3-1 h2 span {
+    font-size:14px;
+    font-weight:700;
+    color : #F5A805; 
+    /* margin-block: 0;
+    padding-block:0; */
+}
+.num3-1 svg {
+    position: relative;
+    transform: translateY(-95%);
+}
+.num3-2  h2{
+    padding-right: 10px;
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+.num3-2 h2 span {
+    font-size:14px;
+    font-weight:700;
+    color : #00B912; 
+    /* margin-block: 0;
+    padding-block:0; */
+}
+/* ______________________________________________________ */
+.num3-3  h2{
+    /* padding-right: 10px; */
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+.num3-3{
+    display: flex;
+    align-items: center;
+    padding-inline: 31px;
+    gap: 10px;
+}

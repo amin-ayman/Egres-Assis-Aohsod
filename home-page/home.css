@@ -1,0 +1,78 @@
+a{text-decoration: none;}
+
+/* __________________header______________________ */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #12376B;
+    height: 44px;
+    color: white;
+    /* margin-bottom: 46px; */
+}
+header>h6 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+header>h6>span {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+}
+/* ___________________________nav_________________________ */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline:182px;
+    margin-bottom: 107px;
+    padding-top: 46px;
+    /* background-color: red; */
+}
+.nav-picture{
+    height: 45px;
+    width: 187px;
+}
+.nav-buttons{
+    display: flex;
+}
+.nav-buttons svg {
+    order: -1;
+    /* display: none; */
+}
+.nav-buttons a:nth-of-type(1){
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    color: white;
+    background-color: #F04B25;
+    border :0;
+    padding-inline:46px;
+    padding-block:14.5px;
+    border-radius: 22.5px;
+    cursor: pointer;
+}
+.nav-buttons a:nth-of-type(2){
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #D12215;
+    border :0;
+    padding-inline:24px;
+    padding-block:14.5px;
+    cursor: pointer;
+}
+nav>ul {
+display: flex;
+gap: 60px;
+}
+nav>ul>a{
+    font-size: 15.25px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #12376B;
+    border :0;
+    cursor: pointer;
+}
