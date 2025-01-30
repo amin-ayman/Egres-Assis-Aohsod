@@ -187,6 +187,11 @@ nav>ul>a{
     padding-bottom: 0;
 
 }
+.number3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .num3-1{
     display: flex;
     padding-inline:31px;
@@ -234,8 +239,6 @@ nav>ul>a{
     align-items: flex-start;
     /* justify-content: space-between; */
     padding-inline: 31px;
-    margin-block: 17px;
-    
 }
 .svg-content h5{
     font-size:14px;
@@ -275,19 +278,18 @@ nav>ul>a{
     font-size:14px;
     font-weight:400;
     color:#909090; 
-    /* margin-block: 0;
-    padding-block:0; */
+    margin: 0;
+    margin-block-start: 15px;
+    padding-block:0;
 }
 .num3-1 h2 span {
     font-size:14px;
     font-weight:700;
     color : #F5A805; 
-    /* margin-block: 0;
-    padding-block:0; */
 }
 .num3-1 svg {
     position: relative;
-    transform: translateY(-95%);
+    transform: translateY(-65%);
 }
 .num3-2  h2{
     padding-right: 10px;
@@ -301,8 +303,8 @@ nav>ul>a{
     font-size:14px;
     font-weight:700;
     color : #00B912; 
-    /* margin-block: 0;
-    padding-block:0; */
+    margin-block: 0;
+    padding-block:0;
 }
 /* ______________________________________________________ */
 .num3-3  h2{
@@ -318,4 +320,95 @@ nav>ul>a{
     align-items: center;
     padding-inline: 31px;
     gap: 10px;
+}
+.num3-4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 31px;
+}
+.num3-4 h5 {
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+.num3-4 h5 span {
+    font-size:14px;
+    font-weight:700;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+/* __________________________ */
+.num3-5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 31px;
+    margin-bottom: 28px;
+}
+.num3-5 h6 {
+    font-size:14px;
+    font-weight:400;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+.num3-6 h6 span {
+    font-size:14px;
+    font-weight:700;
+    color:#909090; 
+    margin-block: 0;
+    padding-block:0;
+}
+/* ______________________ */
+.number4 a:nth-of-type(1) {
+    font-size:24px;
+    font-weight:700;
+    color:#12376B;
+    background-color: #F5A805;
+    border-radius: 67px; 
+    text-align: center;
+    margin-inline: 31px;
+    padding-inline:120px ;
+    padding-block: 12.5px;
+}
+.number4 a:nth-of-type(2) {
+    font-size:24px;
+    font-weight:700;
+    color:#9A9A9A;
+    background-color: #fff;
+    border: 1px solid #616161;
+    border-radius: 67px; 
+    text-align: center;
+    margin-inline: 31px;
+    padding-inline:98.5px ;
+    padding-block: 12.5px;
+}
+.number4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* _______________________________ */
+.number5{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    justify-content: center;
+}
+.num5-1,.num5-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.num5-1 h6,.num5-2 h6 {
+    font-size:14px;
+    font-weight:400;
+    color:#909090;
+    margin: 0;
+    padding: 0; 
+    margin-block: 24px;
 }
