@@ -412,3 +412,113 @@ nav>ul>a{
     padding: 0; 
     margin-block: 24px;
 }
+/* ______________________________________________video_____________________ */
+.leftpart {
+    flex-grow: 1;
+}
+.video {
+    height: 347px;
+    margin-bottom: 33px;
+    background-color: red;
+}
+/* __________________________________________chair___________________________________ */
+.chair{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    /* flex-grow: 2; */
+}
+.chair h6 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding-right: 67px;
+    font-size:18px ;
+    font-weight:400 ;
+    color: #12376B;
+}
+.chair h6::before{
+    content: "";
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #12376B;
+}
+.chair h1 {
+    margin: 0;
+    padding: 0;
+    font-size:50px ;
+    font-weight:700 ;
+    color: #12376B;
+}
+.chair h1 span {
+    color:#F5A805;
+}
+.chair p {
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    font-size:18px ;
+    font-weight:400 ;
+    color: #909090;
+}
+.about-{
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 270px;
+    border-radius: 10px;
+    position: relative;
+}
+.about- h1{
+    margin: 0;
+    padding: 0;
+    font-size:20px ;
+    font-weight:600 ;
+    color: #fff;
+    background-color: #f5a805;
+    border-radius: 10px 10px 0 0;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-bottom: 10px;
+}
+.about- .a1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline-start: 20px;
+}
+.about- .a1 svg {
+    transform: translateY(4px);
+}
+.about- .a1 h3{
+    margin: 0;
+    padding: 0;
+    font-size:18px ;
+    font-weight:400 ;
+    padding-top: 15px;
+    color: #909090;
+}
+.about- .a1 h3 span{
+    margin: 0;
+    padding: 0;
+    font-size:18px ;
+    font-weight:600 ;
+    color: #909090;
+}
+.a3raf {
+    margin-top: 20px ;
+    padding-block: 5px ;
+    padding-inline: 20px;
+    background-color: #909090;
+    font-size: 14px;
+    font-weight:600 ;
+    color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
