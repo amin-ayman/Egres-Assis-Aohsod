@@ -6,8 +6,10 @@ video{
     height: 100%;
     object-fit: cover;
 }
-
-
+/* img {
+    height: 100%;
+    width: 100%;
+} */
 
 /* __________________header______________________ */
 header {
@@ -611,7 +613,12 @@ nav>ul>a{
 
 
 /* _________________________ */
-
+.advantages{
+    border-radius: 10px;
+    height: 882px;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+}
 
 .header {
     display: flex;
@@ -637,3 +644,4 @@ nav>ul>a{
     top: -17px;
     position: absolute;
 }
+/* fawaid */
