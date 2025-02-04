@@ -421,7 +421,9 @@ nav>ul>a{
 .video {
     height: 347px;
     margin-bottom: 33px;
-    background-color: red;
+}
+.video video {
+    border-radius: 10px;
 }
 /* __________________________________________chair___________________________________ */
 .chair{
