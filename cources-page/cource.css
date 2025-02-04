@@ -513,12 +513,127 @@ nav>ul>a{
     margin-top: 20px ;
     padding-block: 5px ;
     padding-inline: 20px;
-    background-color: #909090;
+    background-color: #D7D7D7;
     font-size: 14px;
     font-weight:600 ;
-    color: #fff;
+    color: #818181;
     border-radius: 50px;
     position: absolute;
     right: 50%;
     transform: translateX(50%);
+}
+/* __________________________________mohtawa_____________________________ */
+.mohtawa {
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #F5F5F5;
+    height: 622px;
+    margin-bottom: 32px;
+}
+.topPart{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 33px;
+    background-color: #D7D7D7;
+}
+.topPart h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #686868;
+}
+.bottomPart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-inline: 33px;
+}
+
+.b {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 33px;
+    background-color: #EAEAEA;
+    border-radius: 5px;
+}
+.b h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #818181;
+}
+.b2 {
+    border-radius: 5px 5px 0 0;
+    height: 183px;
+    background-color:#EAEAEA;
+}
+.b2-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 34px;
+    background-color: #DBDBDB;
+    border-radius: 5px;
+}
+.b2-1 h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: #818181;
+}
+.b2-content {
+    display: flex;
+    flex-direction: column;
+    gap:10px ;
+    justify-content: center;
+    padding-block: 25px;
+    margin-block-start: 8px;
+}
+.bc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-inline: 34px;
+}
+.bc h3  {
+    font-size: 14px;
+    font-weight: 400;
+    color: #909090;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* _________________________ */
+
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 33px;
+    padding-block: 13px;
+    background-color: #D7D7D7;
+    border-radius: 10px 10px 0 0 ;
+    position: relative;
+}
+.header h3 {
+    padding: 0;
+    margin: 0;
+    font-size:20px ;
+    font-weight: 700;
+    color: #686868;
+}
+.header svg:nth-of-type(2)
+{   
+    right: -10px;
+    top: -17px;
+    position: absolute;
 }
