@@ -646,4 +646,115 @@ nav>ul>a{
     top: -17px;
     position: absolute;
 }
-/* fawaid */
+/*____________________________________________________ fawaid ___________________________*/
+.fawaid{
+    background-color:#F5F5F5 ;
+    height:577px ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+.fawaid-header {
+    border-radius: 10px 10px 0 0;
+    background-color:#D7D7D7 ;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 33px;
+    height: 55px;
+    margin-bottom: 25px;
+}
+.fawaid-header h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #686868;
+    padding: 0;
+    margin: 0;
+}
+.fawaid-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-inline: 33px;
+}
+.fawaid-cards div {
+    width: calc((100% - 10px) / 2) ;
+    height: 218px;
+}
+.f-card-1 {
+    background-color: #F04A26;
+    border-radius: 10px;
+}
+.f-card-2 {
+    background-color: #286CD5;
+    border-radius: 10px;
+}
+.f-card-3 {
+    background-color:#12376B ;
+    border-radius: 10px;
+}
+.f-card-4 {
+    background-color: #F5A805;
+    border-radius: 10px;
+}
+.fawaid-cards div svg {
+    padding-top: 32px;
+    padding-inline: 35px;
+}
+#special {
+    padding-top: 62px;
+}
+.fawaid-cards div h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color:#fff;
+    padding: 0;
+    margin: 0;
+    padding-inline: 35px;
+    padding-block: 5px;
+}
+.fawaid-cards div p {
+    font-size: 12px;
+    font-weight: 400;
+    color:#fff;
+    line-height: 19px;
+    padding: 0;
+    margin: 0;
+    padding-inline: 35px;
+}
+/* ___________________________course-teachers_____________________ */
+.course-teachers-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color:#12376B;
+    padding: 0;
+    margin: 0;
+}
+.course-teachers-header h1 span {
+    color:#286CD5;
+    padding: 0;
+    margin: 0;
+}
+.course-teachers-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.course-teachers-arrows svg {
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    padding: 8px;
+    color:rgba(0, 0, 0,0.6);
+    border-radius: 50%;
+}
+.course-teachers-arrows svg:nth-of-type(2) {
+    color:rgba(0, 0, 0,0.2);
+}
+.course-teachers-arrows {
+    display: flex;
+    gap: 20px;
+}
