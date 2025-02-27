@@ -1,16 +1,17 @@
 .course-teachers{
     display: flex;
     flex-direction: column;
+    
 }
-/* .teachers-cards {
+.teachers-cards {
     overflow-x: scroll;
     /* overflow-y: none; */
     /* width: 500px;
-    height: 384px;
-    display: flex;
+    height: 384px; */
+    /* display: flex; */
     gap: 20px;
     margin-bottom: 70px;
-}  */
+} 
 /*________________________ card --> 1________________  */
 .tc1{
     background-color: #12376B40;
