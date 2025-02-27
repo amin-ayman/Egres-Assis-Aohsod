@@ -147,6 +147,7 @@ nav>ul>a{
     gap: 18px;
     padding-inline :182px;
     height: 493px;
+    /* flex-wrap: nowrap; */
 }
 .element-card {
     width: calc((100% - 18px) / 2);
@@ -370,17 +371,27 @@ footer hr{
 }
 /* _______________________________________________ */
 @media (min-width:601px) and (max-width:1000px){
-    nav>ul {
+        
+        nav {
+            padding-inline: 50px;
+        }
+        nav>ul {
+        padding-right: 0;
         display: flex;
         gap: 20px;
         }
-
+        .elements{
+            padding-inline: 50px;
+        }
+         .cosatna{
+            padding-inline: 50px;
+         }
         .video{
-            margin-top: 575px;
+            margin-top: 520px;
             display: flex;
             flex-direction: column;
             gap: 40px;
-            padding-inline: 100px;
+            padding-inline: 50px;
         }
         .hero-video{
             height: 500px;
@@ -406,8 +417,7 @@ footer hr{
         footer {
             padding-inline:3em;
             margin-block: 3em;
-            margin-inline: 3.5em;
-        
+            margin-inline: 25px;
         }
         .mix{
             display: flex;

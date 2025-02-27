@@ -758,3 +758,425 @@ nav>ul>a{
     display: flex;
     gap: 20px;
 }
+/* ____________________________________________________araa-3mlana__________________________ */
+.araa-3mlana-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.araa-header-arrow svg{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    padding: 8px;
+    color:rgba(0, 0, 0,0.6);
+    border-radius: 50%;
+}
+.araa-header-arrow svg:nth-of-type(2){
+    color:rgba(0, 0, 0,0.1);
+}
+.araa-header-arrow {
+    display: flex;
+    gap: 27px;
+    align-self: flex-end;
+}
+.araa-header-content h6{
+    font-size: 18px;
+    font-weight: 400;
+    color:#12376B;
+    padding: 0;
+    margin: 0;
+    padding-right: 73px;
+    position: relative;
+}
+.araa-header-content h6::before{
+    content: "";
+    height: 1px;
+    width: 63px;
+    background-color:#12376B ;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.araa-header-content h1{
+    font-size: 58px;
+    font-weight: 700;
+    color:#12376B;
+    padding: 0;
+    margin: 0;
+}
+.araa-header-content h1 span{
+    color:#F04B25;
+    padding: 0;
+    margin: 0;
+}
+.araa-header-content h3{
+    font-size: 24px;
+    font-weight: 400;
+    color:#282828;
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+}
+.araa-3mlana {
+    padding-inline: 184px;
+    margin-bottom: 43px;
+}
+.araa-3mlana-cards{
+    display: flex;
+    gap: 21px;
+    height: 294px;
+}
+.a3c1 {
+    width: calc((100% - 60px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-inline: 30px;
+    padding-top:50px ;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.a3c1 p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #686868;
+    /* width: 70%; */
+}
+.a3c1 h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #686868;
+}
+.a3c1 h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #686868;
+}
+/* ______________________________________________dawrat-taw8if__________________________ */
+.dawrat-taw8if{
+    padding-inline: 184px;
+}
+.dawrat_header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.dawrat_header h5 {
+    padding: 0;
+    margin: 0;
+    color:#12376B ;
+    font-size:18px ;
+    font-weight: 400;
+    position: relative;
+    padding-right: 72px;
+}
+.dawrat_header h5::before{
+    content: "";
+    height: 1px;
+    width: 63px;
+    background-color:#12376B ;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dawrat_header_arrow h1 {
+    padding: 0;
+    margin: 0;
+    color:#12376B ;
+    font-size:40px ;
+    font-weight: 700;
+    line-height: 60px;
+}
+.dawrat_header_arrow h1 span{
+    padding: 0;
+    margin: 0;
+    color:#286CD5 ;
+
+}
+.dawrat_header_arrow {
+    display: flex;
+    justify-content: space-between;
+}
+.dawrat_header_arrow_svgs {
+    display: flex;
+    gap: 20px;
+    align-self: flex-end;
+}
+.dawrat_header_arrow_svgs svg{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    padding: 8px;
+    color:rgba(0, 0, 0,0.6);
+    border-radius: 50%;
+}
+.dawrat_header_arrow_svgs svg:nth-of-type(2){
+    color:rgba(0, 0, 0,0.2);
+}
+
+.dawrat_cards {
+    margin-top: 54px;
+    display: flex;
+    gap: 20px;
+}
+.dcard {
+    width: calc((100% - 60px) / 4);
+}
+.card1_img {
+    width: 254px;
+    height: 244px;
+    border-radius: 10px 10px 0 0;
+}
+.dawrat_cards img {
+    border-radius: 10px 10px 0 0;
+}
+/* card 1 */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    width: 254px;
+    height: 120px;
+    padding-inline: 25px;
+    padding-block: 30px;
+    box-sizing: border-box;
+    background-color:#F5F5F5;
+    border-radius: 0 0 10px 10px;
+}
+.card2_img , .card4_img {
+    position: relative;
+}
+.layer{
+    position: absolute;
+    height: 100%;
+    width: 254px;
+    background-color: #F04B2526;
+    top: 0;
+    border-radius: 10px 10px 0 0;
+}
+.dawrat_card1_content h2 {
+    padding: 0;
+    margin: 0;
+    color:#12376B ;
+    font-size:26px ;
+    font-weight: 700;
+}
+.dawrat_cards p {
+    padding: 0;
+    margin: 0;
+    color:#686868 ;
+    font-size:15px ;
+    font-weight: 400;
+}
+
+/* card 2 */
+.dawrat_card2_content h2 {
+    padding: 0;
+    margin: 0;
+    color:#F04B25;
+    font-size:26px ;
+    font-weight: 700;
+}
+
+/* card 3 */
+.dawrat_card3_content h2 {
+    padding: 0;
+    margin: 0;
+    color:#286CD5 ;
+    font-size:26px ;
+    font-weight: 700;
+}
+
+/* card 3 */
+.dawrat_card3_content h2 {
+    padding: 0;
+    margin: 0;
+    color:#286CD5 ;
+    font-size:26px ;
+    font-weight: 700;
+}
+/* card 4 */
+.dawrat_card4_content h2 {
+    padding: 0;
+    margin: 0;
+    color:#F4A905;
+    font-size:26px ;
+    font-weight: 700;
+}
+
+/* ____________________________________________boy________________________________ */
+.boy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-inline: 184px;
+    height: 340px;
+    background-color:#286CD5 ;
+    margin-block-start: 100px;
+    margin-block-end: 150px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.boy-img div:nth-of-type(2){
+    height: 88px;
+    width:130px ;
+    position: absolute;
+    top: -40px;
+    right: 400px;
+    animation: cloud 2s ease-in-out 2s infinite;
+}
+.boy-img div:nth-of-type(3){
+    height: 56px;
+    width:82px ;
+    position: absolute;
+    top:65px;
+    right: 90px;
+    animation: cloud 2s ease-in-out 3s infinite;
+}
+.boy-img div:nth-of-type(4){
+    height: 132px;
+    width:107px ;
+    position: absolute;
+    right: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.boy-content{
+    column-gap: 10px;
+}
+.boy-content h1{
+    margin: 0;
+    font-size: 33px;
+    font-weight: 700;
+    color:white ;
+}
+.boy-content p{
+    margin: 0;
+    margin-block-start: 10px;
+    margin-block-end: 22px;
+    font-size:18px ;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 75%;
+}
+.boy-content a{
+    font-size: 19px;
+    font-weight:900 ;
+    color: #286CD5;
+    padding-inline:57px;
+    padding-block:10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+} 
+/* _______________animation_____________ */
+@keyframes cloud {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+/* _________________________________________________footer_______________________________________ */
+footer {
+    padding-inline:6.25em;
+    height: 31em;
+    margin-block: 4.7em;
+    border-radius: 0.625em;
+    margin-inline: 5.7em;
+    color: white;
+    background-color: #F04B25;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.mix{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: space-between;
+}
+.enwan {
+    width: 10em;
+    height: 2.5em;
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+}
+.p1,.p2,.p3{
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+.contact{
+    display: flex;
+    gap: 3em;
+}
+
+.left-part{
+    gap: 12.5em;
+    display: flex;
+}
+.left-part h2{
+    font-size:1em ;
+    font-weight:400 ;
+    line-height: 1.8em;
+}
+.left-part h1{
+    font-size:1.125em ;
+    font-weight:700 ;
+    line-height: 0.8em;
+}
+.left-part-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-part-2{
+    display: flex;
+    flex-direction: column;
+}
+footer hr{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 1px  #fff;
+    width: 100%;
+    padding-inline:6.25em;
+}
+/* tail */
+.tail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tail section {
+    display: flex;
+    gap:2.1em
+}
+.tail h4 {
+    font-size:1em ;
+    font-weight:400 ;
+    line-height: 1.8em;
+}
