@@ -4,14 +4,13 @@
     
 }
 .teachers-cards {
-    /* overflow-x: scroll; */
+    overflow-x: hidden;
     /* overflow-y: none; */
     /* width: 500px;
     height: 384px; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 50px;
-    gap: 20px;
     margin-bottom: 70px;
 } 
 /*________________________ card --> 1________________  */

@@ -7,8 +7,6 @@ video{
     object-fit: cover;
 }
 
-
-
 /* __________________header______________________ */
 header {
     display: flex;
@@ -46,6 +44,13 @@ nav {
 }
 .nav-buttons{
     display: flex;
+    align-items: center;
+    position: relative;
+}
+.nav-buttons svg{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
 }
 .nav-buttons svg {
     order: -1;
@@ -156,7 +161,7 @@ nav>ul>a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #F4A905;
+    background-color: rgb(244, 169, 5);
     color:white;
     padding-inline: 47px;
     padding-block: 61px;
@@ -455,6 +460,11 @@ footer hr{
         }
         nav {
             padding-inline:80px;
+        }
+        .nav-buttons svg{
+            position: static;
+            visibility: visible;
+            opacity: 1;
         }
         header>h6 {
             font-size: 12px;
