@@ -417,6 +417,7 @@ nav>ul>a{
 /* ______________________________________________video_____________________ */
 .leftpart {
     flex-grow: 1;
+    overflow: hidden;
 }
 .video {
     height: 347px;

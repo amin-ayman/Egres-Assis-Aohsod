@@ -459,10 +459,12 @@ footer hr{
             width: 45px;
         }
         nav {
-            padding-inline:80px;
+            padding-inline:10px;
+            justify-content: space-between;
         }
         .nav-buttons svg{
-            position: static;
+            position:relative;
+            display: block;
             visibility: visible;
             opacity: 1;
         }
